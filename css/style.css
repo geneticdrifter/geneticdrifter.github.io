@@ -49,6 +49,9 @@ a {
 	color:#fff;
 	outline:none;
 }
+a:hover{
+	color:#bfde5f
+}
 
 
 
@@ -156,12 +159,12 @@ header{
 	position:absolute;
 	left:0;
 	right:0;
-	top:35%;
+	top:25%;
 	text-align:center;
-	padding:30px 0 30px ;
+	padding:100px 0 100px ;
 	max-width:960px;
-	border:1px solid #fff;
-	background: rgba(0, 0, 0, 0.2);
+	height:400px;
+	background:radial-gradient(rgba(20,20,20,0.8),rgba(20,20,20,0.7),rgba(20,20,20,0.6),rgba(20,20,20,0.1),rgba(20,20,20,0));
 	 filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#0b1d2e, endColorstr=#0b1d2e);
 	zoom: 1;
 }
